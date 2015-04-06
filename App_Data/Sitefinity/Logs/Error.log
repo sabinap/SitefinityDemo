@@ -1,0 +1,2882 @@
+----------------------------------------
+Timestamp: 4/6/2015 12:22:27 PM
+
+Message: HandlingInstanceID: 0b097c97-56dc-4e23-a90b-475426e018b3
+An exception of type 'System.IO.DirectoryNotFoundException' occurred and was caught.
+------------------------------------------------------------------------------------
+04/06/2015 15:22:26
+Type : System.IO.DirectoryNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find a part of the path 'C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\SitefinityWebApp\App_Themes\SitefinityDemo\Global'.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void WinIOError(Int32, System.String)
+HResult : -2147024893
+Stack Trace :    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.HandleError(Int32 hr, String path)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.FileSystemEnumerableFactory.CreateFileInfoIterator(String path, String originalUserPath, String searchPattern, SearchOption searchOption)
+   at System.IO.DirectoryInfo.InternalEnumerateFiles(String searchPattern, SearchOption searchOption)
+   at System.IO.DirectoryInfo.EnumerateFiles(String searchPattern)
+   at Telerik.Sitefinity.Web.UI.ThemeController.GetExternalStyleSheets(ThemeElement theme, Page page)
+   at Telerik.Sitefinity.Web.UI.ThemeController.GetGlobalStyles(Page page)
+   at Telerik.Sitefinity.Web.RouteHandler.Handler_Load(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : SABINA-PC
+TimeStamp : 4/6/2015 12:22:26 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130727962976452866
+ThreadIdentity : admin
+WindowsIdentity : Sabina-PC\Sabina
+Requested URL : http://localhost:60876/Sitefinity/Template/da1bf3b1-dc6e-6d1e-b785-ff00007809e7?theme=SitefinityDemo
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SABINA-PC
+
+App Domain: /LM/W3SVC/2/ROOT-1-130727962976452866
+
+ProcessId: 6692
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:11540
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/6/2015 12:23:32 PM
+
+Message: HandlingInstanceID: 63a6499f-3d10-4379-9033-2031c77dab5b
+An exception of type 'System.IO.DirectoryNotFoundException' occurred and was caught.
+------------------------------------------------------------------------------------
+04/06/2015 15:23:32
+Type : System.IO.DirectoryNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find a part of the path 'C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\Sitefinity\Template\SitefinityWebApp\App_Themes\SitefinityDemo\Global'.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void WinIOError(Int32, System.String)
+HResult : -2147024893
+Stack Trace :    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.HandleError(Int32 hr, String path)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.FileSystemEnumerableFactory.CreateFileInfoIterator(String path, String originalUserPath, String searchPattern, SearchOption searchOption)
+   at System.IO.DirectoryInfo.InternalEnumerateFiles(String searchPattern, SearchOption searchOption)
+   at System.IO.DirectoryInfo.EnumerateFiles(String searchPattern)
+   at Telerik.Sitefinity.Web.UI.ThemeController.GetExternalStyleSheets(ThemeElement theme, Page page)
+   at Telerik.Sitefinity.Web.UI.ThemeController.GetGlobalStyles(Page page)
+   at Telerik.Sitefinity.Web.RouteHandler.Handler_Load(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : SABINA-PC
+TimeStamp : 4/6/2015 12:23:32 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130727962976452866
+ThreadIdentity : admin
+WindowsIdentity : Sabina-PC\Sabina
+Requested URL : http://localhost:60876/Sitefinity/Template/da1bf3b1-dc6e-6d1e-b785-ff00007809e7?theme=SitefinityDemo
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SABINA-PC
+
+App Domain: /LM/W3SVC/2/ROOT-1-130727962976452866
+
+ProcessId: 6692
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:10256
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/6/2015 12:23:54 PM
+
+Message: HandlingInstanceID: 6ca4f670-d833-41d9-9d4f-3ada12d9d37a
+An exception of type 'System.IO.DirectoryNotFoundException' occurred and was caught.
+------------------------------------------------------------------------------------
+04/06/2015 15:23:54
+Type : System.IO.DirectoryNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find a part of the path 'C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\SitefinityWebApp\App_Themes\SitefinityDemo\Global'.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void WinIOError(Int32, System.String)
+HResult : -2147024893
+Stack Trace :    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.HandleError(Int32 hr, String path)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.FileSystemEnumerableFactory.CreateFileInfoIterator(String path, String originalUserPath, String searchPattern, SearchOption searchOption)
+   at System.IO.DirectoryInfo.InternalEnumerateFiles(String searchPattern, SearchOption searchOption)
+   at System.IO.DirectoryInfo.EnumerateFiles(String searchPattern)
+   at Telerik.Sitefinity.Web.UI.ThemeController.GetExternalStyleSheets(ThemeElement theme, Page page)
+   at Telerik.Sitefinity.Web.UI.ThemeController.GetGlobalStyles(Page page)
+   at Telerik.Sitefinity.Web.RouteHandler.Handler_Load(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : SABINA-PC
+TimeStamp : 4/6/2015 12:23:54 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130727962976452866
+ThreadIdentity : admin
+WindowsIdentity : Sabina-PC\Sabina
+Requested URL : http://localhost:60876/Sitefinity/Template/da1bf3b1-dc6e-6d1e-b785-ff00007809e7?theme=SitefinityDemo
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SABINA-PC
+
+App Domain: /LM/W3SVC/2/ROOT-1-130727962976452866
+
+ProcessId: 6692
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:1820
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/6/2015 12:58:48 PM
+
+Message: HandlingInstanceID: 3c693f7d-6dba-44d8-9d4d-6fda9662ff32
+An exception of type 'System.Web.HttpCompileException' occurred and was caught.
+-------------------------------------------------------------------------------
+04/06/2015 15:58:48
+Type : System.Web.HttpCompileException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : c:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master(19): error CS1002: ; expected
+Source : System.Web
+Help link : 
+Results : System.CodeDom.Compiler.CompilerResults
+SourceCode : #pragma checksum "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "1640C2AEC7E1A2B9C6CCE4603C5A8F21289836EA"
+//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//     Runtime Version:4.0.30319.34209
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+namespace ASP {
+    
+    #line 391 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Linq;
+    
+    #line default
+    #line hidden
+    
+    #line 398 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Web.Security;
+    
+    #line default
+    #line hidden
+    
+    #line 389 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.ComponentModel.DataAnnotations;
+    
+    #line default
+    #line hidden
+    
+    #line 387 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Collections.Generic;
+    
+    #line default
+    #line hidden
+    
+    #line 393 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Text.RegularExpressions;
+    
+    #line default
+    #line hidden
+    
+    #line 8 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+    using System.Web.UI.WebControls;
+    
+    #line default
+    #line hidden
+    
+    #line 404 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Xml.Linq;
+    
+    #line default
+    #line hidden
+    
+    #line 8 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+    using System.Web.UI;
+    
+    #line default
+    #line hidden
+    
+    #line 403 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Web.UI.HtmlControls;
+    
+    #line default
+    #line hidden
+    
+    #line 394 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Web;
+    
+    #line default
+    #line hidden
+    
+    #line 390 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Configuration;
+    
+    #line default
+    #line hidden
+    
+    #line 385 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System;
+    
+    #line default
+    #line hidden
+    
+    #line 392 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Text;
+    
+    #line default
+    #line hidden
+    
+    #line 399 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Web.Profile;
+    
+    #line default
+    #line hidden
+    
+    #line 395 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Web.Caching;
+    
+    #line default
+    #line hidden
+    
+    #line 386 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Collections;
+    
+    #line default
+    #line hidden
+    
+    #line 8 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+    using System.Web.UI.WebControls.WebParts;
+    
+    #line default
+    #line hidden
+    
+    #line 8 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+    using System.Web.UI.WebControls.Expressions;
+    
+    #line default
+    #line hidden
+    
+    #line 388 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Collections.Specialized;
+    
+    #line default
+    #line hidden
+    
+    #line 397 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Web.SessionState;
+    
+    #line default
+    #line hidden
+    
+    #line 8 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+    using System.Web.DynamicData;
+    
+    #line default
+    #line hidden
+    
+    
+    [System.Runtime.CompilerServices.CompilerGlobalScopeAttribute()]
+    public class app_master_main_master : global::SitefinityWebApp.App_Master.Main {
+        
+        private static System.Reflection.MethodInfo @__PageInspector_SetTraceDataMethod = global::ASP.app_master_main_master.@__PageInspector_LoadHelper("SetTraceData");
+        
+        private static System.Reflection.MethodInfo @__PageInspector_BeginRenderTracingMethod = global::ASP.app_master_main_master.@__PageInspector_LoadHelper("BeginRenderTracing");
+        
+        private static System.Reflection.MethodInfo @__PageInspector_EndRenderTracingMethod = global::ASP.app_master_main_master.@__PageInspector_LoadHelper("EndRenderTracing");
+        
+        private System.Web.UI.ITemplate @__Template_head;
+        
+        private System.Web.UI.ITemplate @__Template_ContentPlaceHolder1;
+        
+        private static bool @__initialized;
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public app_master_main_master() {
+            ((global::SitefinityWebApp.App_Master.Main)(this)).AppRelativeVirtualPath = "~/App_Master/Main.Master";
+            if ((global::ASP.app_master_main_master.@__initialized == false)) {
+                global::ASP.app_master_main_master.@__initialized = true;
+            }
+            this.ContentPlaceHolders.Add("head");
+            this.ContentPlaceHolders.Add("contentplaceholder1");
+        }
+        
+        protected System.Web.Profile.DefaultProfile Profile {
+            get {
+                return ((System.Web.Profile.DefaultProfile)(this.Context.Profile));
+            }
+        }
+        
+        protected System.Web.HttpApplication ApplicationInstance {
+            get {
+                return ((System.Web.HttpApplication)(this.Context.ApplicationInstance));
+            }
+        }
+        
+        [TemplateContainer(typeof(SitefinityWebApp.App_Master.Main))]
+        [TemplateInstanceAttribute(System.Web.UI.TemplateInstance.Single)]
+        public virtual System.Web.UI.ITemplate Template_head {
+            get {
+                return this.@__Template_head;
+            }
+            set {
+                this.@__Template_head = value;
+            }
+        }
+        
+        [TemplateContainer(typeof(SitefinityWebApp.App_Master.Main))]
+        [TemplateInstanceAttribute(System.Web.UI.TemplateInstance.Single)]
+        public virtual System.Web.UI.ITemplate Template_ContentPlaceHolder1 {
+            get {
+                return this.@__Template_ContentPlaceHolder1;
+            }
+            set {
+                this.@__Template_ContentPlaceHolder1 = value;
+            }
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.LiteralControl @__BuildControl__control2() {
+            global::System.Web.UI.LiteralControl @__ctrl;
+            @__ctrl = new global::System.Web.UI.LiteralControl("\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n");
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        122,
+                        68,
+                        true});
+            return @__ctrl;
+        }
+        
+        private static System.Reflection.MethodInfo @__PageInspector_LoadHelper(string helperName) {
+            System.Type helperClass = System.Type.GetType("Microsoft.VisualStudio.Web.PageInspector.Runtime.WebForms.TraceHelpers, Microsoft" +
+                    ".VisualStudio.Web.PageInspector.Tracing, Version=2.0.0.0, Culture=neutral, Publi" +
+                    "cKeyToken=b03f5f7f11d50a3a", false, false);
+            if ((helperClass != null)) {
+                return helperClass.GetMethod(helperName);
+            }
+            return null;
+        }
+        
+        private void @__PageInspector_SetTraceData(object[] parameters) {
+            if ((global::ASP.app_master_main_master.@__PageInspector_SetTraceDataMethod != null)) {
+                global::ASP.app_master_main_master.@__PageInspector_SetTraceDataMethod.Invoke(null, parameters);
+            }
+        }
+        
+        private void @__PageInspector_BeginRenderTracing(object[] parameters) {
+            if ((global::ASP.app_master_main_master.@__PageInspector_BeginRenderTracingMethod != null)) {
+                global::ASP.app_master_main_master.@__PageInspector_BeginRenderTracingMethod.Invoke(null, parameters);
+            }
+        }
+        
+        private void @__PageInspector_EndRenderTracing(object[] parameters) {
+            if ((global::ASP.app_master_main_master.@__PageInspector_EndRenderTracingMethod != null)) {
+                global::ASP.app_master_main_master.@__PageInspector_EndRenderTracingMethod.Invoke(null, parameters);
+            }
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.HtmlControls.HtmlTitle @__BuildControl__control4() {
+            global::System.Web.UI.HtmlControls.HtmlTitle @__ctrl;
+            
+            #line 7 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTitle();
+            
+            #line default
+            #line hidden
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        217,
+                        15,
+                        false});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.LiteralControl @__BuildControl__control5() {
+            global::System.Web.UI.LiteralControl @__ctrl;
+            @__ctrl = new global::System.Web.UI.LiteralControl("\r\n    ");
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        287,
+                        6,
+                        true});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.ContentPlaceHolder @__BuildControlhead() {
+            global::System.Web.UI.WebControls.ContentPlaceHolder @__ctrl;
+            
+            #line 8 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl = new global::System.Web.UI.WebControls.ContentPlaceHolder();
+            
+            #line default
+            #line hidden
+            this.head = @__ctrl;
+            
+            #line 8 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl.ID = "head";
+            
+            #line default
+            #line hidden
+            if ((this.ContentTemplates != null)) {
+                this.@__Template_head = ((System.Web.UI.ITemplate)(this.ContentTemplates["head"]));
+            }
+            if ((this.@__Template_head != null)) {
+                this.InstantiateInContentPlaceHolder(@__ctrl, this.@__Template_head);
+            }
+            else {
+                global::System.Web.UI.LiteralControl @__ctrl1;
+                
+                #line 8 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+                @__ctrl1 = this.@__BuildControl__control5();
+                
+                #line default
+                #line hidden
+                System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+                
+                #line 8 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+                @__parser.AddParsedSubObject(@__ctrl1);
+                
+                #line default
+                #line hidden
+            }
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        238,
+                        80,
+                        false});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.HtmlControls.HtmlHead @__BuildControl__control3() {
+            global::System.Web.UI.HtmlControls.HtmlHead @__ctrl;
+            
+            #line 6 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl = new global::System.Web.UI.HtmlControls.HtmlHead("head");
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.HtmlControls.HtmlTitle @__ctrl1;
+            
+            #line 6 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl1 = this.@__BuildControl__control4();
+            
+            #line default
+            #line hidden
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 6 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl1);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.ContentPlaceHolder @__ctrl2;
+            
+            #line 6 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl2 = this.@__BuildControlhead();
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl2);
+            
+            #line default
+            #line hidden
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        190,
+                        137,
+                        false});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.LiteralControl @__BuildControl__control6() {
+            global::System.Web.UI.LiteralControl @__ctrl;
+            @__ctrl = new global::System.Web.UI.LiteralControl("\r\n<body>\r\n    ");
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        327,
+                        14,
+                        true});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.LiteralControl @__BuildControl__control7() {
+            global::System.Web.UI.LiteralControl @__ctrl;
+            @__ctrl = new global::System.Web.UI.LiteralControl("\r\n    <div>\r\n        ");
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        373,
+                        21,
+                        true});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.LiteralControl @__BuildControl__control8() {
+            global::System.Web.UI.LiteralControl @__ctrl;
+            @__ctrl = new global::System.Web.UI.LiteralControl("\r\n        \r\n        ");
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        458,
+                        20,
+                        true});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.ContentPlaceHolder @__BuildControlContentPlaceHolder1() {
+            global::System.Web.UI.WebControls.ContentPlaceHolder @__ctrl;
+            
+            #line 14 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl = new global::System.Web.UI.WebControls.ContentPlaceHolder();
+            
+            #line default
+            #line hidden
+            this.ContentPlaceHolder1 = @__ctrl;
+            
+            #line 14 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl.ID = "ContentPlaceHolder1";
+            
+            #line default
+            #line hidden
+            if ((this.ContentTemplates != null)) {
+                this.@__Template_ContentPlaceHolder1 = ((System.Web.UI.ITemplate)(this.ContentTemplates["ContentPlaceHolder1"]));
+            }
+            if ((this.@__Template_ContentPlaceHolder1 != null)) {
+                this.InstantiateInContentPlaceHolder(@__ctrl, this.@__Template_ContentPlaceHolder1);
+            }
+            else {
+                global::System.Web.UI.LiteralControl @__ctrl1;
+                
+                #line 14 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+                @__ctrl1 = this.@__BuildControl__control8();
+                
+                #line default
+                #line hidden
+                System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+                
+                #line 14 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+                @__parser.AddParsedSubObject(@__ctrl1);
+                
+                #line default
+                #line hidden
+            }
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        394,
+                        109,
+                        false});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.LiteralControl @__BuildControl__control9() {
+            global::System.Web.UI.LiteralControl @__ctrl;
+            @__ctrl = new global::System.Web.UI.LiteralControl("\r\n        ");
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        503,
+                        10,
+                        true});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControl__control10(System.Web.UI.Control @__ctrl) {
+            @__ctrl.SetRenderMethodDelegate(new System.Web.UI.RenderMethod(this.@__Render__control10));
+        }
+        
+        private void @__Render__control10(System.Web.UI.HtmlTextWriter @__w, System.Web.UI.Control parameterContainer) {
+            this.@__PageInspector_BeginRenderTracing(new object[] {
+                        @__w,
+                        "/App_Master/Main.Master",
+                        587,
+                        22,
+                        true});
+            @__w.Write("\r\n                <h1>");
+            this.@__PageInspector_EndRenderTracing(new object[] {
+                        @__w});
+            this.@__PageInspector_BeginRenderTracing(new object[] {
+                        @__w,
+                        "/App_Master/Main.Master",
+                        609,
+                        19,
+                        false});
+            
+            #line 19 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+                       Eval("Title") 
+            
+            #line default
+            #line hidden
+            this.@__PageInspector_EndRenderTracing(new object[] {
+                        @__w});
+            this.@__PageInspector_BeginRenderTracing(new object[] {
+                        @__w,
+                        "/App_Master/Main.Master",
+                        628,
+                        19,
+                        true});
+            @__w.Write("</h1>\r\n            ");
+            this.@__PageInspector_EndRenderTracing(new object[] {
+                        @__w});
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.Repeater @__BuildControlrptProducts() {
+            global::System.Web.UI.WebControls.Repeater @__ctrl;
+            
+            #line 17 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl = new global::System.Web.UI.WebControls.Repeater();
+            
+            #line default
+            #line hidden
+            this.rptProducts = @__ctrl;
+            
+            #line 17 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl.ItemTemplate = new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControl__control10));
+            
+            #line default
+            #line hidden
+            
+            #line 17 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl.ID = "rptProducts";
+            
+            #line default
+            #line hidden
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        513,
+                        174,
+                        false});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.LiteralControl @__BuildControl__control11() {
+            global::System.Web.UI.LiteralControl @__ctrl;
+            @__ctrl = new global::System.Web.UI.LiteralControl("\r\n    </div>\r\n    ");
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        687,
+                        18,
+                        true});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.HtmlControls.HtmlForm @__BuildControlform1() {
+            global::System.Web.UI.HtmlControls.HtmlForm @__ctrl;
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl = new global::System.Web.UI.HtmlControls.HtmlForm();
+            
+            #line default
+            #line hidden
+            this.form1 = @__ctrl;
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl.ID = "form1";
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.LiteralControl @__ctrl1;
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl1 = this.@__BuildControl__control7();
+            
+            #line default
+            #line hidden
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl1);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.ContentPlaceHolder @__ctrl2;
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl2 = this.@__BuildControlContentPlaceHolder1();
+            
+            #line default
+            #line hidden
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl2);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.LiteralControl @__ctrl3;
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl3 = this.@__BuildControl__control9();
+            
+            #line default
+            #line hidden
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl3);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.Repeater @__ctrl4;
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl4 = this.@__BuildControlrptProducts();
+            
+            #line default
+            #line hidden
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl4);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.LiteralControl @__ctrl5;
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl5 = this.@__BuildControl__control11();
+            
+            #line default
+            #line hidden
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl5);
+            
+            #line default
+            #line hidden
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        341,
+                        371,
+                        false});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.LiteralControl @__BuildControl__control12() {
+            global::System.Web.UI.LiteralControl @__ctrl;
+            @__ctrl = new global::System.Web.UI.LiteralControl("\r\n</body>\r\n</html>\r\n");
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        712,
+                        20,
+                        true});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControlTree(app_master_main_master @__ctrl) {
+            global::System.Web.UI.LiteralControl @__ctrl1;
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl1 = this.@__BuildControl__control2();
+            
+            #line default
+            #line hidden
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl1);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.HtmlControls.HtmlHead @__ctrl2;
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl2 = this.@__BuildControl__control3();
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl2);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.LiteralControl @__ctrl3;
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl3 = this.@__BuildControl__control6();
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl3);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.HtmlControls.HtmlForm @__ctrl4;
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl4 = this.@__BuildControlform1();
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl4);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.LiteralControl @__ctrl5;
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl5 = this.@__BuildControl__control12();
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl5);
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        protected override void FrameworkInitialize() {
+            base.FrameworkInitialize();
+            this.@__BuildControlTree(this);
+        }
+    }
+}
+
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Compilation.BuildResult CompileWebFile(System.Web.VirtualPath)
+HResult : -2147467259
+Stack Trace :    at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(VirtualPath virtualPath)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(String virtualPath)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+
+Additional Info:
+
+MachineName : SABINA-PC
+TimeStamp : 4/6/2015 12:58:48 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130727986743392257
+ThreadIdentity : admin
+WindowsIdentity : Sabina-PC\Sabina
+Requested URL : http://localhost:60876/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SABINA-PC
+
+App Domain: /LM/W3SVC/2/ROOT-1-130727986743392257
+
+ProcessId: 12904
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:11664
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/6/2015 12:59:40 PM
+
+Message: HandlingInstanceID: f35b1371-59d2-4d6f-bd75-7ef83a58b11c
+An exception of type 'System.Web.HttpCompileException' occurred and was caught.
+-------------------------------------------------------------------------------
+04/06/2015 15:59:40
+Type : System.Web.HttpCompileException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : c:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master(19): error CS1002: ; expected
+Source : System.Web
+Help link : 
+Results : System.CodeDom.Compiler.CompilerResults
+SourceCode : #pragma checksum "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "1640C2AEC7E1A2B9C6CCE4603C5A8F21289836EA"
+//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//     Runtime Version:4.0.30319.34209
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+namespace ASP {
+    
+    #line 391 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Linq;
+    
+    #line default
+    #line hidden
+    
+    #line 398 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Web.Security;
+    
+    #line default
+    #line hidden
+    
+    #line 389 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.ComponentModel.DataAnnotations;
+    
+    #line default
+    #line hidden
+    
+    #line 387 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Collections.Generic;
+    
+    #line default
+    #line hidden
+    
+    #line 393 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Text.RegularExpressions;
+    
+    #line default
+    #line hidden
+    
+    #line 8 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+    using System.Web.UI.WebControls;
+    
+    #line default
+    #line hidden
+    
+    #line 404 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Xml.Linq;
+    
+    #line default
+    #line hidden
+    
+    #line 8 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+    using System.Web.UI;
+    
+    #line default
+    #line hidden
+    
+    #line 403 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Web.UI.HtmlControls;
+    
+    #line default
+    #line hidden
+    
+    #line 394 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Web;
+    
+    #line default
+    #line hidden
+    
+    #line 390 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Configuration;
+    
+    #line default
+    #line hidden
+    
+    #line 385 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System;
+    
+    #line default
+    #line hidden
+    
+    #line 392 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Text;
+    
+    #line default
+    #line hidden
+    
+    #line 399 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Web.Profile;
+    
+    #line default
+    #line hidden
+    
+    #line 395 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Web.Caching;
+    
+    #line default
+    #line hidden
+    
+    #line 386 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Collections;
+    
+    #line default
+    #line hidden
+    
+    #line 8 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+    using System.Web.UI.WebControls.WebParts;
+    
+    #line default
+    #line hidden
+    
+    #line 8 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+    using System.Web.UI.WebControls.Expressions;
+    
+    #line default
+    #line hidden
+    
+    #line 388 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Collections.Specialized;
+    
+    #line default
+    #line hidden
+    
+    #line 397 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Web.SessionState;
+    
+    #line default
+    #line hidden
+    
+    #line 8 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+    using System.Web.DynamicData;
+    
+    #line default
+    #line hidden
+    
+    
+    [System.Runtime.CompilerServices.CompilerGlobalScopeAttribute()]
+    public class app_master_main_master : global::SitefinityWebApp.App_Master.Main {
+        
+        private static System.Reflection.MethodInfo @__PageInspector_SetTraceDataMethod = global::ASP.app_master_main_master.@__PageInspector_LoadHelper("SetTraceData");
+        
+        private static System.Reflection.MethodInfo @__PageInspector_BeginRenderTracingMethod = global::ASP.app_master_main_master.@__PageInspector_LoadHelper("BeginRenderTracing");
+        
+        private static System.Reflection.MethodInfo @__PageInspector_EndRenderTracingMethod = global::ASP.app_master_main_master.@__PageInspector_LoadHelper("EndRenderTracing");
+        
+        private System.Web.UI.ITemplate @__Template_head;
+        
+        private System.Web.UI.ITemplate @__Template_ContentPlaceHolder1;
+        
+        private static bool @__initialized;
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public app_master_main_master() {
+            ((global::SitefinityWebApp.App_Master.Main)(this)).AppRelativeVirtualPath = "~/App_Master/Main.Master";
+            if ((global::ASP.app_master_main_master.@__initialized == false)) {
+                global::ASP.app_master_main_master.@__initialized = true;
+            }
+            this.ContentPlaceHolders.Add("head");
+            this.ContentPlaceHolders.Add("contentplaceholder1");
+        }
+        
+        protected System.Web.Profile.DefaultProfile Profile {
+            get {
+                return ((System.Web.Profile.DefaultProfile)(this.Context.Profile));
+            }
+        }
+        
+        protected System.Web.HttpApplication ApplicationInstance {
+            get {
+                return ((System.Web.HttpApplication)(this.Context.ApplicationInstance));
+            }
+        }
+        
+        [TemplateContainer(typeof(SitefinityWebApp.App_Master.Main))]
+        [TemplateInstanceAttribute(System.Web.UI.TemplateInstance.Single)]
+        public virtual System.Web.UI.ITemplate Template_head {
+            get {
+                return this.@__Template_head;
+            }
+            set {
+                this.@__Template_head = value;
+            }
+        }
+        
+        [TemplateContainer(typeof(SitefinityWebApp.App_Master.Main))]
+        [TemplateInstanceAttribute(System.Web.UI.TemplateInstance.Single)]
+        public virtual System.Web.UI.ITemplate Template_ContentPlaceHolder1 {
+            get {
+                return this.@__Template_ContentPlaceHolder1;
+            }
+            set {
+                this.@__Template_ContentPlaceHolder1 = value;
+            }
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.LiteralControl @__BuildControl__control2() {
+            global::System.Web.UI.LiteralControl @__ctrl;
+            @__ctrl = new global::System.Web.UI.LiteralControl("\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n");
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        122,
+                        68,
+                        true});
+            return @__ctrl;
+        }
+        
+        private static System.Reflection.MethodInfo @__PageInspector_LoadHelper(string helperName) {
+            System.Type helperClass = System.Type.GetType("Microsoft.VisualStudio.Web.PageInspector.Runtime.WebForms.TraceHelpers, Microsoft" +
+                    ".VisualStudio.Web.PageInspector.Tracing, Version=2.0.0.0, Culture=neutral, Publi" +
+                    "cKeyToken=b03f5f7f11d50a3a", false, false);
+            if ((helperClass != null)) {
+                return helperClass.GetMethod(helperName);
+            }
+            return null;
+        }
+        
+        private void @__PageInspector_SetTraceData(object[] parameters) {
+            if ((global::ASP.app_master_main_master.@__PageInspector_SetTraceDataMethod != null)) {
+                global::ASP.app_master_main_master.@__PageInspector_SetTraceDataMethod.Invoke(null, parameters);
+            }
+        }
+        
+        private void @__PageInspector_BeginRenderTracing(object[] parameters) {
+            if ((global::ASP.app_master_main_master.@__PageInspector_BeginRenderTracingMethod != null)) {
+                global::ASP.app_master_main_master.@__PageInspector_BeginRenderTracingMethod.Invoke(null, parameters);
+            }
+        }
+        
+        private void @__PageInspector_EndRenderTracing(object[] parameters) {
+            if ((global::ASP.app_master_main_master.@__PageInspector_EndRenderTracingMethod != null)) {
+                global::ASP.app_master_main_master.@__PageInspector_EndRenderTracingMethod.Invoke(null, parameters);
+            }
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.HtmlControls.HtmlTitle @__BuildControl__control4() {
+            global::System.Web.UI.HtmlControls.HtmlTitle @__ctrl;
+            
+            #line 7 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTitle();
+            
+            #line default
+            #line hidden
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        217,
+                        15,
+                        false});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.LiteralControl @__BuildControl__control5() {
+            global::System.Web.UI.LiteralControl @__ctrl;
+            @__ctrl = new global::System.Web.UI.LiteralControl("\r\n    ");
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        287,
+                        6,
+                        true});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.ContentPlaceHolder @__BuildControlhead() {
+            global::System.Web.UI.WebControls.ContentPlaceHolder @__ctrl;
+            
+            #line 8 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl = new global::System.Web.UI.WebControls.ContentPlaceHolder();
+            
+            #line default
+            #line hidden
+            this.head = @__ctrl;
+            
+            #line 8 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl.ID = "head";
+            
+            #line default
+            #line hidden
+            if ((this.ContentTemplates != null)) {
+                this.@__Template_head = ((System.Web.UI.ITemplate)(this.ContentTemplates["head"]));
+            }
+            if ((this.@__Template_head != null)) {
+                this.InstantiateInContentPlaceHolder(@__ctrl, this.@__Template_head);
+            }
+            else {
+                global::System.Web.UI.LiteralControl @__ctrl1;
+                
+                #line 8 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+                @__ctrl1 = this.@__BuildControl__control5();
+                
+                #line default
+                #line hidden
+                System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+                
+                #line 8 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+                @__parser.AddParsedSubObject(@__ctrl1);
+                
+                #line default
+                #line hidden
+            }
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        238,
+                        80,
+                        false});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.HtmlControls.HtmlHead @__BuildControl__control3() {
+            global::System.Web.UI.HtmlControls.HtmlHead @__ctrl;
+            
+            #line 6 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl = new global::System.Web.UI.HtmlControls.HtmlHead("head");
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.HtmlControls.HtmlTitle @__ctrl1;
+            
+            #line 6 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl1 = this.@__BuildControl__control4();
+            
+            #line default
+            #line hidden
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 6 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl1);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.ContentPlaceHolder @__ctrl2;
+            
+            #line 6 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl2 = this.@__BuildControlhead();
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl2);
+            
+            #line default
+            #line hidden
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        190,
+                        137,
+                        false});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.LiteralControl @__BuildControl__control6() {
+            global::System.Web.UI.LiteralControl @__ctrl;
+            @__ctrl = new global::System.Web.UI.LiteralControl("\r\n<body>\r\n    ");
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        327,
+                        14,
+                        true});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.LiteralControl @__BuildControl__control7() {
+            global::System.Web.UI.LiteralControl @__ctrl;
+            @__ctrl = new global::System.Web.UI.LiteralControl("\r\n    <div>\r\n        ");
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        373,
+                        21,
+                        true});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.LiteralControl @__BuildControl__control8() {
+            global::System.Web.UI.LiteralControl @__ctrl;
+            @__ctrl = new global::System.Web.UI.LiteralControl("\r\n        \r\n        ");
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        458,
+                        20,
+                        true});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.ContentPlaceHolder @__BuildControlContentPlaceHolder1() {
+            global::System.Web.UI.WebControls.ContentPlaceHolder @__ctrl;
+            
+            #line 14 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl = new global::System.Web.UI.WebControls.ContentPlaceHolder();
+            
+            #line default
+            #line hidden
+            this.ContentPlaceHolder1 = @__ctrl;
+            
+            #line 14 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl.ID = "ContentPlaceHolder1";
+            
+            #line default
+            #line hidden
+            if ((this.ContentTemplates != null)) {
+                this.@__Template_ContentPlaceHolder1 = ((System.Web.UI.ITemplate)(this.ContentTemplates["ContentPlaceHolder1"]));
+            }
+            if ((this.@__Template_ContentPlaceHolder1 != null)) {
+                this.InstantiateInContentPlaceHolder(@__ctrl, this.@__Template_ContentPlaceHolder1);
+            }
+            else {
+                global::System.Web.UI.LiteralControl @__ctrl1;
+                
+                #line 14 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+                @__ctrl1 = this.@__BuildControl__control8();
+                
+                #line default
+                #line hidden
+                System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+                
+                #line 14 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+                @__parser.AddParsedSubObject(@__ctrl1);
+                
+                #line default
+                #line hidden
+            }
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        394,
+                        109,
+                        false});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.LiteralControl @__BuildControl__control9() {
+            global::System.Web.UI.LiteralControl @__ctrl;
+            @__ctrl = new global::System.Web.UI.LiteralControl("\r\n        ");
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        503,
+                        10,
+                        true});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControl__control10(System.Web.UI.Control @__ctrl) {
+            @__ctrl.SetRenderMethodDelegate(new System.Web.UI.RenderMethod(this.@__Render__control10));
+        }
+        
+        private void @__Render__control10(System.Web.UI.HtmlTextWriter @__w, System.Web.UI.Control parameterContainer) {
+            this.@__PageInspector_BeginRenderTracing(new object[] {
+                        @__w,
+                        "/App_Master/Main.Master",
+                        587,
+                        22,
+                        true});
+            @__w.Write("\r\n                <h1>");
+            this.@__PageInspector_EndRenderTracing(new object[] {
+                        @__w});
+            this.@__PageInspector_BeginRenderTracing(new object[] {
+                        @__w,
+                        "/App_Master/Main.Master",
+                        609,
+                        19,
+                        false});
+            
+            #line 19 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+                       Eval("Title") 
+            
+            #line default
+            #line hidden
+            this.@__PageInspector_EndRenderTracing(new object[] {
+                        @__w});
+            this.@__PageInspector_BeginRenderTracing(new object[] {
+                        @__w,
+                        "/App_Master/Main.Master",
+                        628,
+                        19,
+                        true});
+            @__w.Write("</h1>\r\n            ");
+            this.@__PageInspector_EndRenderTracing(new object[] {
+                        @__w});
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.Repeater @__BuildControlrptProducts() {
+            global::System.Web.UI.WebControls.Repeater @__ctrl;
+            
+            #line 17 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl = new global::System.Web.UI.WebControls.Repeater();
+            
+            #line default
+            #line hidden
+            this.rptProducts = @__ctrl;
+            
+            #line 17 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl.ItemTemplate = new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControl__control10));
+            
+            #line default
+            #line hidden
+            
+            #line 17 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl.ID = "rptProducts";
+            
+            #line default
+            #line hidden
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        513,
+                        174,
+                        false});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.LiteralControl @__BuildControl__control11() {
+            global::System.Web.UI.LiteralControl @__ctrl;
+            @__ctrl = new global::System.Web.UI.LiteralControl("\r\n    </div>\r\n    ");
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        687,
+                        18,
+                        true});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.HtmlControls.HtmlForm @__BuildControlform1() {
+            global::System.Web.UI.HtmlControls.HtmlForm @__ctrl;
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl = new global::System.Web.UI.HtmlControls.HtmlForm();
+            
+            #line default
+            #line hidden
+            this.form1 = @__ctrl;
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl.ID = "form1";
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.LiteralControl @__ctrl1;
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl1 = this.@__BuildControl__control7();
+            
+            #line default
+            #line hidden
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl1);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.ContentPlaceHolder @__ctrl2;
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl2 = this.@__BuildControlContentPlaceHolder1();
+            
+            #line default
+            #line hidden
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl2);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.LiteralControl @__ctrl3;
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl3 = this.@__BuildControl__control9();
+            
+            #line default
+            #line hidden
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl3);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.Repeater @__ctrl4;
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl4 = this.@__BuildControlrptProducts();
+            
+            #line default
+            #line hidden
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl4);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.LiteralControl @__ctrl5;
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl5 = this.@__BuildControl__control11();
+            
+            #line default
+            #line hidden
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl5);
+            
+            #line default
+            #line hidden
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        341,
+                        371,
+                        false});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.LiteralControl @__BuildControl__control12() {
+            global::System.Web.UI.LiteralControl @__ctrl;
+            @__ctrl = new global::System.Web.UI.LiteralControl("\r\n</body>\r\n</html>\r\n");
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        712,
+                        20,
+                        true});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControlTree(app_master_main_master @__ctrl) {
+            global::System.Web.UI.LiteralControl @__ctrl1;
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl1 = this.@__BuildControl__control2();
+            
+            #line default
+            #line hidden
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl1);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.HtmlControls.HtmlHead @__ctrl2;
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl2 = this.@__BuildControl__control3();
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl2);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.LiteralControl @__ctrl3;
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl3 = this.@__BuildControl__control6();
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl3);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.HtmlControls.HtmlForm @__ctrl4;
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl4 = this.@__BuildControlform1();
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl4);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.LiteralControl @__ctrl5;
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl5 = this.@__BuildControl__control12();
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl5);
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        protected override void FrameworkInitialize() {
+            base.FrameworkInitialize();
+            this.@__BuildControlTree(this);
+        }
+    }
+}
+
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Compilation.BuildResult CompileWebFile(System.Web.VirtualPath)
+HResult : -2147467259
+Stack Trace :    at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(VirtualPath virtualPath)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(String virtualPath)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+
+Additional Info:
+
+MachineName : SABINA-PC
+TimeStamp : 4/6/2015 12:59:40 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130727986743392257
+ThreadIdentity : admin
+WindowsIdentity : Sabina-PC\Sabina
+Requested URL : http://localhost:60876/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SABINA-PC
+
+App Domain: /LM/W3SVC/2/ROOT-1-130727986743392257
+
+ProcessId: 12904
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:10552
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/6/2015 1:00:30 PM
+
+Message: HandlingInstanceID: a32a5852-0c55-421a-9fab-0f1c4362de3b
+An exception of type 'System.Web.HttpCompileException' occurred and was caught.
+-------------------------------------------------------------------------------
+04/06/2015 16:00:30
+Type : System.Web.HttpCompileException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : c:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master(19): error CS1002: ; expected
+Source : System.Web
+Help link : 
+Results : System.CodeDom.Compiler.CompilerResults
+SourceCode : #pragma checksum "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "7128C4287345890E42000BC00981041E21649903"
+//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//     Runtime Version:4.0.30319.34209
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+namespace ASP {
+    
+    #line 391 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Linq;
+    
+    #line default
+    #line hidden
+    
+    #line 398 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Web.Security;
+    
+    #line default
+    #line hidden
+    
+    #line 389 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.ComponentModel.DataAnnotations;
+    
+    #line default
+    #line hidden
+    
+    #line 387 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Collections.Generic;
+    
+    #line default
+    #line hidden
+    
+    #line 393 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Text.RegularExpressions;
+    
+    #line default
+    #line hidden
+    
+    #line 8 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+    using System.Web.UI.WebControls;
+    
+    #line default
+    #line hidden
+    
+    #line 404 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Xml.Linq;
+    
+    #line default
+    #line hidden
+    
+    #line 8 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+    using System.Web.UI;
+    
+    #line default
+    #line hidden
+    
+    #line 403 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Web.UI.HtmlControls;
+    
+    #line default
+    #line hidden
+    
+    #line 394 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Web;
+    
+    #line default
+    #line hidden
+    
+    #line 390 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Configuration;
+    
+    #line default
+    #line hidden
+    
+    #line 385 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System;
+    
+    #line default
+    #line hidden
+    
+    #line 392 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Text;
+    
+    #line default
+    #line hidden
+    
+    #line 399 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Web.Profile;
+    
+    #line default
+    #line hidden
+    
+    #line 395 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Web.Caching;
+    
+    #line default
+    #line hidden
+    
+    #line 386 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Collections;
+    
+    #line default
+    #line hidden
+    
+    #line 8 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+    using System.Web.UI.WebControls.WebParts;
+    
+    #line default
+    #line hidden
+    
+    #line 8 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+    using System.Web.UI.WebControls.Expressions;
+    
+    #line default
+    #line hidden
+    
+    #line 388 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Collections.Specialized;
+    
+    #line default
+    #line hidden
+    
+    #line 397 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config\web.config"
+    using System.Web.SessionState;
+    
+    #line default
+    #line hidden
+    
+    #line 8 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+    using System.Web.DynamicData;
+    
+    #line default
+    #line hidden
+    
+    
+    [System.Runtime.CompilerServices.CompilerGlobalScopeAttribute()]
+    public class app_master_main_master : global::SitefinityWebApp.App_Master.Main {
+        
+        private static System.Reflection.MethodInfo @__PageInspector_SetTraceDataMethod = global::ASP.app_master_main_master.@__PageInspector_LoadHelper("SetTraceData");
+        
+        private static System.Reflection.MethodInfo @__PageInspector_BeginRenderTracingMethod = global::ASP.app_master_main_master.@__PageInspector_LoadHelper("BeginRenderTracing");
+        
+        private static System.Reflection.MethodInfo @__PageInspector_EndRenderTracingMethod = global::ASP.app_master_main_master.@__PageInspector_LoadHelper("EndRenderTracing");
+        
+        private System.Web.UI.ITemplate @__Template_head;
+        
+        private System.Web.UI.ITemplate @__Template_ContentPlaceHolder1;
+        
+        private static bool @__initialized;
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public app_master_main_master() {
+            ((global::SitefinityWebApp.App_Master.Main)(this)).AppRelativeVirtualPath = "~/App_Master/Main.Master";
+            if ((global::ASP.app_master_main_master.@__initialized == false)) {
+                global::ASP.app_master_main_master.@__initialized = true;
+            }
+            this.ContentPlaceHolders.Add("head");
+            this.ContentPlaceHolders.Add("contentplaceholder1");
+        }
+        
+        protected System.Web.Profile.DefaultProfile Profile {
+            get {
+                return ((System.Web.Profile.DefaultProfile)(this.Context.Profile));
+            }
+        }
+        
+        protected System.Web.HttpApplication ApplicationInstance {
+            get {
+                return ((System.Web.HttpApplication)(this.Context.ApplicationInstance));
+            }
+        }
+        
+        [TemplateContainer(typeof(SitefinityWebApp.App_Master.Main))]
+        [TemplateInstanceAttribute(System.Web.UI.TemplateInstance.Single)]
+        public virtual System.Web.UI.ITemplate Template_head {
+            get {
+                return this.@__Template_head;
+            }
+            set {
+                this.@__Template_head = value;
+            }
+        }
+        
+        [TemplateContainer(typeof(SitefinityWebApp.App_Master.Main))]
+        [TemplateInstanceAttribute(System.Web.UI.TemplateInstance.Single)]
+        public virtual System.Web.UI.ITemplate Template_ContentPlaceHolder1 {
+            get {
+                return this.@__Template_ContentPlaceHolder1;
+            }
+            set {
+                this.@__Template_ContentPlaceHolder1 = value;
+            }
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.LiteralControl @__BuildControl__control2() {
+            global::System.Web.UI.LiteralControl @__ctrl;
+            @__ctrl = new global::System.Web.UI.LiteralControl("\r\n\r\n<!DOCTYPE html>\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n");
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        122,
+                        68,
+                        true});
+            return @__ctrl;
+        }
+        
+        private static System.Reflection.MethodInfo @__PageInspector_LoadHelper(string helperName) {
+            System.Type helperClass = System.Type.GetType("Microsoft.VisualStudio.Web.PageInspector.Runtime.WebForms.TraceHelpers, Microsoft" +
+                    ".VisualStudio.Web.PageInspector.Tracing, Version=2.0.0.0, Culture=neutral, Publi" +
+                    "cKeyToken=b03f5f7f11d50a3a", false, false);
+            if ((helperClass != null)) {
+                return helperClass.GetMethod(helperName);
+            }
+            return null;
+        }
+        
+        private void @__PageInspector_SetTraceData(object[] parameters) {
+            if ((global::ASP.app_master_main_master.@__PageInspector_SetTraceDataMethod != null)) {
+                global::ASP.app_master_main_master.@__PageInspector_SetTraceDataMethod.Invoke(null, parameters);
+            }
+        }
+        
+        private void @__PageInspector_BeginRenderTracing(object[] parameters) {
+            if ((global::ASP.app_master_main_master.@__PageInspector_BeginRenderTracingMethod != null)) {
+                global::ASP.app_master_main_master.@__PageInspector_BeginRenderTracingMethod.Invoke(null, parameters);
+            }
+        }
+        
+        private void @__PageInspector_EndRenderTracing(object[] parameters) {
+            if ((global::ASP.app_master_main_master.@__PageInspector_EndRenderTracingMethod != null)) {
+                global::ASP.app_master_main_master.@__PageInspector_EndRenderTracingMethod.Invoke(null, parameters);
+            }
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.HtmlControls.HtmlTitle @__BuildControl__control4() {
+            global::System.Web.UI.HtmlControls.HtmlTitle @__ctrl;
+            
+            #line 7 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTitle();
+            
+            #line default
+            #line hidden
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        217,
+                        15,
+                        false});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.LiteralControl @__BuildControl__control5() {
+            global::System.Web.UI.LiteralControl @__ctrl;
+            @__ctrl = new global::System.Web.UI.LiteralControl("\r\n    ");
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        287,
+                        6,
+                        true});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.ContentPlaceHolder @__BuildControlhead() {
+            global::System.Web.UI.WebControls.ContentPlaceHolder @__ctrl;
+            
+            #line 8 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl = new global::System.Web.UI.WebControls.ContentPlaceHolder();
+            
+            #line default
+            #line hidden
+            this.head = @__ctrl;
+            
+            #line 8 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl.ID = "head";
+            
+            #line default
+            #line hidden
+            if ((this.ContentTemplates != null)) {
+                this.@__Template_head = ((System.Web.UI.ITemplate)(this.ContentTemplates["head"]));
+            }
+            if ((this.@__Template_head != null)) {
+                this.InstantiateInContentPlaceHolder(@__ctrl, this.@__Template_head);
+            }
+            else {
+                global::System.Web.UI.LiteralControl @__ctrl1;
+                
+                #line 8 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+                @__ctrl1 = this.@__BuildControl__control5();
+                
+                #line default
+                #line hidden
+                System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+                
+                #line 8 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+                @__parser.AddParsedSubObject(@__ctrl1);
+                
+                #line default
+                #line hidden
+            }
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        238,
+                        80,
+                        false});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.HtmlControls.HtmlHead @__BuildControl__control3() {
+            global::System.Web.UI.HtmlControls.HtmlHead @__ctrl;
+            
+            #line 6 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl = new global::System.Web.UI.HtmlControls.HtmlHead("head");
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.HtmlControls.HtmlTitle @__ctrl1;
+            
+            #line 6 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl1 = this.@__BuildControl__control4();
+            
+            #line default
+            #line hidden
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 6 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl1);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.ContentPlaceHolder @__ctrl2;
+            
+            #line 6 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl2 = this.@__BuildControlhead();
+            
+            #line default
+            #line hidden
+            
+            #line 6 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl2);
+            
+            #line default
+            #line hidden
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        190,
+                        137,
+                        false});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.LiteralControl @__BuildControl__control6() {
+            global::System.Web.UI.LiteralControl @__ctrl;
+            @__ctrl = new global::System.Web.UI.LiteralControl("\r\n<body>\r\n    ");
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        327,
+                        14,
+                        true});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.LiteralControl @__BuildControl__control7() {
+            global::System.Web.UI.LiteralControl @__ctrl;
+            @__ctrl = new global::System.Web.UI.LiteralControl("\r\n    <div>\r\n        ");
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        373,
+                        21,
+                        true});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.LiteralControl @__BuildControl__control8() {
+            global::System.Web.UI.LiteralControl @__ctrl;
+            @__ctrl = new global::System.Web.UI.LiteralControl("\r\n        \r\n        ");
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        458,
+                        20,
+                        true});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.ContentPlaceHolder @__BuildControlContentPlaceHolder1() {
+            global::System.Web.UI.WebControls.ContentPlaceHolder @__ctrl;
+            
+            #line 14 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl = new global::System.Web.UI.WebControls.ContentPlaceHolder();
+            
+            #line default
+            #line hidden
+            this.ContentPlaceHolder1 = @__ctrl;
+            
+            #line 14 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl.ID = "ContentPlaceHolder1";
+            
+            #line default
+            #line hidden
+            if ((this.ContentTemplates != null)) {
+                this.@__Template_ContentPlaceHolder1 = ((System.Web.UI.ITemplate)(this.ContentTemplates["ContentPlaceHolder1"]));
+            }
+            if ((this.@__Template_ContentPlaceHolder1 != null)) {
+                this.InstantiateInContentPlaceHolder(@__ctrl, this.@__Template_ContentPlaceHolder1);
+            }
+            else {
+                global::System.Web.UI.LiteralControl @__ctrl1;
+                
+                #line 14 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+                @__ctrl1 = this.@__BuildControl__control8();
+                
+                #line default
+                #line hidden
+                System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+                
+                #line 14 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+                @__parser.AddParsedSubObject(@__ctrl1);
+                
+                #line default
+                #line hidden
+            }
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        394,
+                        109,
+                        false});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.LiteralControl @__BuildControl__control9() {
+            global::System.Web.UI.LiteralControl @__ctrl;
+            @__ctrl = new global::System.Web.UI.LiteralControl("\r\n        ");
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        503,
+                        10,
+                        true});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControl__control10(System.Web.UI.Control @__ctrl) {
+            @__ctrl.SetRenderMethodDelegate(new System.Web.UI.RenderMethod(this.@__Render__control10));
+        }
+        
+        private void @__Render__control10(System.Web.UI.HtmlTextWriter @__w, System.Web.UI.Control parameterContainer) {
+            this.@__PageInspector_BeginRenderTracing(new object[] {
+                        @__w,
+                        "/App_Master/Main.Master",
+                        587,
+                        22,
+                        true});
+            @__w.Write("\r\n                <h1>");
+            this.@__PageInspector_EndRenderTracing(new object[] {
+                        @__w});
+            this.@__PageInspector_BeginRenderTracing(new object[] {
+                        @__w,
+                        "/App_Master/Main.Master",
+                        609,
+                        41,
+                        false});
+            
+            #line 19 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+                       DataBinder.Eval("Title").ToString() 
+            
+            #line default
+            #line hidden
+            this.@__PageInspector_EndRenderTracing(new object[] {
+                        @__w});
+            this.@__PageInspector_BeginRenderTracing(new object[] {
+                        @__w,
+                        "/App_Master/Main.Master",
+                        650,
+                        19,
+                        true});
+            @__w.Write("</h1>\r\n            ");
+            this.@__PageInspector_EndRenderTracing(new object[] {
+                        @__w});
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.WebControls.Repeater @__BuildControlrptProducts() {
+            global::System.Web.UI.WebControls.Repeater @__ctrl;
+            
+            #line 17 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl = new global::System.Web.UI.WebControls.Repeater();
+            
+            #line default
+            #line hidden
+            this.rptProducts = @__ctrl;
+            
+            #line 17 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl.ItemTemplate = new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControl__control10));
+            
+            #line default
+            #line hidden
+            
+            #line 17 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl.ID = "rptProducts";
+            
+            #line default
+            #line hidden
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        513,
+                        196,
+                        false});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.LiteralControl @__BuildControl__control11() {
+            global::System.Web.UI.LiteralControl @__ctrl;
+            @__ctrl = new global::System.Web.UI.LiteralControl("\r\n    </div>\r\n    ");
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        709,
+                        18,
+                        true});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.HtmlControls.HtmlForm @__BuildControlform1() {
+            global::System.Web.UI.HtmlControls.HtmlForm @__ctrl;
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl = new global::System.Web.UI.HtmlControls.HtmlForm();
+            
+            #line default
+            #line hidden
+            this.form1 = @__ctrl;
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl.ID = "form1";
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.LiteralControl @__ctrl1;
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl1 = this.@__BuildControl__control7();
+            
+            #line default
+            #line hidden
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl1);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.ContentPlaceHolder @__ctrl2;
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl2 = this.@__BuildControlContentPlaceHolder1();
+            
+            #line default
+            #line hidden
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl2);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.LiteralControl @__ctrl3;
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl3 = this.@__BuildControl__control9();
+            
+            #line default
+            #line hidden
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl3);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.WebControls.Repeater @__ctrl4;
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl4 = this.@__BuildControlrptProducts();
+            
+            #line default
+            #line hidden
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl4);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.LiteralControl @__ctrl5;
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl5 = this.@__BuildControl__control11();
+            
+            #line default
+            #line hidden
+            
+            #line 12 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl5);
+            
+            #line default
+            #line hidden
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        341,
+                        393,
+                        false});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::System.Web.UI.LiteralControl @__BuildControl__control12() {
+            global::System.Web.UI.LiteralControl @__ctrl;
+            @__ctrl = new global::System.Web.UI.LiteralControl("\r\n</body>\r\n</html>\r\n");
+            this.@__PageInspector_SetTraceData(new object[] {
+                        @__ctrl,
+                        null,
+                        734,
+                        20,
+                        true});
+            return @__ctrl;
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private void @__BuildControlTree(app_master_main_master @__ctrl) {
+            global::System.Web.UI.LiteralControl @__ctrl1;
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl1 = this.@__BuildControl__control2();
+            
+            #line default
+            #line hidden
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl1);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.HtmlControls.HtmlHead @__ctrl2;
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl2 = this.@__BuildControl__control3();
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl2);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.LiteralControl @__ctrl3;
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl3 = this.@__BuildControl__control6();
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl3);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.HtmlControls.HtmlForm @__ctrl4;
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl4 = this.@__BuildControlform1();
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl4);
+            
+            #line default
+            #line hidden
+            global::System.Web.UI.LiteralControl @__ctrl5;
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__ctrl5 = this.@__BuildControl__control12();
+            
+            #line default
+            #line hidden
+            
+            #line 1 "C:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master"
+            @__parser.AddParsedSubObject(@__ctrl5);
+            
+            #line default
+            #line hidden
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        protected override void FrameworkInitialize() {
+            base.FrameworkInitialize();
+            this.@__BuildControlTree(this);
+        }
+    }
+}
+
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Compilation.BuildResult CompileWebFile(System.Web.VirtualPath)
+HResult : -2147467259
+Stack Trace :    at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(VirtualPath virtualPath)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(String virtualPath)
+   at System.Web.UI.PageParser.ProcessMainDirectiveAttribute(String deviceName, String name, String value, IDictionary parseData)
+   at System.Web.UI.TemplateParser.ProcessMainDirective(IDictionary mainDirective)
+
+Additional Info:
+
+MachineName : SABINA-PC
+TimeStamp : 4/6/2015 1:00:30 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130727987875637018
+ThreadIdentity : admin
+WindowsIdentity : Sabina-PC\Sabina
+Requested URL : http://localhost:60876/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SABINA-PC
+
+App Domain: /LM/W3SVC/2/ROOT-1-130727987875637018
+
+ProcessId: 4612
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:11900
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/6/2015 1:28:36 PM
+
+Message: HandlingInstanceID: d4f5f86e-6a1f-47e5-8a16-7812fd155d2b
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+04/06/2015 16:28:36
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : An exception occurred during the execution of 'Extent<Telerik.Sitefinity.DynamicTypes.Model.Product.Product>().Where(re-p => (re-p.ApplicationName == OpenAccessProvider.ApplicationName)).Where(re-p => (re-p.Visible AndAlso (re-p.Lifecycle.WorkflowStatus == "Live")))'. Failure: Identifier 'Lifecycle' is not a parameter or variable or field of 'Telerik.Sitefinity.DynamicTypes.Model.Product.Product'. If 'Lifecycle' is a property please add the FieldAlias or Storage attribute to it or declare it as a field's alias.
+See InnerException for more details.
+Complete Expression:
+.Call System.Linq.Queryable.Where(
+    .Call System.Linq.Queryable.Where(
+        .Constant<Telerik.OpenAccess.Query.ExtentQueryImpl`1[Telerik.Sitefinity.DynamicTypes.Model.Product.Product]>(Extent<Telerik.Sitefinity.DynamicTypes.Model.Product.Product>()),
+        '(.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.Product.Product,System.Boolean]>)),
+    '(.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.Product.Product,System.Boolean]>))
+
+.Lambda #Lambda1<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.Product.Product,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.Product.Product $re-p)
+{
+    $re-p.ApplicationName == .Constant<Telerik.Sitefinity.DynamicModules.Data.OpenAccessDynamicModuleProvider>(OpenAccessProvider).ApplicationName
+}
+
+.Lambda #Lambda2<System.Func`2[Telerik.Sitefinity.DynamicTypes.Model.Product.Product,System.Boolean]>(Telerik.Sitefinity.DynamicTypes.Model.Product.Product $re-p)
+{
+    $re-p.Visible && ($re-p.Lifecycle).WorkflowStatus == "Live"
+}
+
+Source : Telerik.OpenAccess.35.Extensions
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Collections.IEnumerable PerformDatabaseQuery(System.Type, Int32, System.Object[], Boolean, Boolean)
+HResult : -2146233079
+Stack Trace :    at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+   at Telerik.OpenAccess.Query.ExpressionExecution.PerformDatabaseQueryMulti[T](Expression expr, ExecutionSettings settings, Object[] grpVals, Boolean checkOid, QueryOptions options)
+   at Telerik.OpenAccess.Query.Piece`1.ExecuteMultiple()
+   at Telerik.OpenAccess.Query.Piece`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   at Telerik.Sitefinity.Data.Linq.LinqQuery`2.System.Collections.IEnumerable.GetEnumerator()
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at SitefinityWebApp.App_Master.Main.Page_Load(Object sender, EventArgs e) in c:\Program Files (x86)\Telerik\Sitefinity\Projects\Default\App_Master\Main.Master.cs:line 21
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : SABINA-PC
+TimeStamp : 4/6/2015 1:28:36 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130728004299156390
+ThreadIdentity : admin
+WindowsIdentity : Sabina-PC\Sabina
+Requested URL : http://localhost:60876/
+	Inner Exception
+	---------------
+	Type : Telerik.OpenAccess.OpenAccessException, Telerik.OpenAccess, Version=2015.1.225.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
+	Message : Identifier 'Lifecycle' is not a parameter or variable or field of 'Telerik.Sitefinity.DynamicTypes.Model.Product.Product'. If 'Lifecycle' is a property please add the FieldAlias or Storage attribute to it or declare it as a field's alias.
+	Source : Telerik.OpenAccess.35.Extensions
+	Help link : 
+	InnerExceptions : 
+	FailedObject : 
+	BackendError : 
+	Reason : Runtime
+	CanRetry : False
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Collections.IEnumerable PerformDatabaseQueryImpl(System.Type, Int32, System.Object[], Boolean, Boolean)
+	HResult : -2146233088
+	Stack Trace :    at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQueryImpl(Type resultType, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+	   at Telerik.OpenAccess.Query.ExpressionCompiler.PerformDatabaseQuery(Type type, Int32 elementAt, Object[] groupResolutionParamValues, Boolean single, Boolean checkOid)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SABINA-PC
+
+App Domain: /LM/W3SVC/2/ROOT-1-130728004299156390
+
+ProcessId: 8704
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:11672
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/6/2015 1:49:02 PM
+
+Message: HandlingInstanceID: e9532936-7f1a-4aea-870b-ecc9ee775bde
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+04/06/2015 16:49:02
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Type "SitefinityWebApp/UserControls/ProductListing.ascx" cannot be resolved.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+HResult : -2147024809
+Stack Trace :    at Telerik.Sitefinity.Utilities.TypeConverters.TypeResolutionService.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Telerik.Sitefinity.Utilities.TypeConverters.TypeResolutionService.GetType(String name, Boolean throwOnError)
+   at Telerik.Sitefinity.Utilities.TypeConverters.TypeResolutionService.ResolveType(String name, Boolean throwOnError)
+   at Telerik.Sitefinity.Modules.ControlManager`1.GetControlType(ObjectData controlData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.CreateNewControl(ZoneEditorWebServiceArgs state, IControlManager manager, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateControlState(ZoneEditorWebServiceArgs state)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : SABINA-PC
+TimeStamp : 4/6/2015 1:49:02 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130728014482238829
+ThreadIdentity : 
+WindowsIdentity : Sabina-PC\Sabina
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SABINA-PC
+
+App Domain: /LM/W3SVC/2/ROOT-1-130728014482238829
+
+ProcessId: 12072
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:8004
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/6/2015 1:49:38 PM
+
+Message: HandlingInstanceID: b3e31f2b-5ad2-4fd3-a4f9-9cf28435f774
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+04/06/2015 16:49:38
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : The file '/SitefinityWebApp/UserControls/ProductListing.ascx' does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CheckVirtualFileExists(System.Web.VirtualPath)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at Telerik.Sitefinity.Modules.ControlManager`1.GetControlType(ObjectData controlData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.CreateNewControl(ZoneEditorWebServiceArgs state, IControlManager manager, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateControlState(ZoneEditorWebServiceArgs state)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : SABINA-PC
+TimeStamp : 4/6/2015 1:49:38 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130728014482238829
+ThreadIdentity : 
+WindowsIdentity : Sabina-PC\Sabina
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SABINA-PC
+
+App Domain: /LM/W3SVC/2/ROOT-1-130728014482238829
+
+ProcessId: 12072
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:9244
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 4/6/2015 1:50:25 PM
+
+Message: HandlingInstanceID: a1601a2f-5bc3-4245-a67e-31aeaf4f9723
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+04/06/2015 16:50:25
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Type "/SitefinityWebApp/UserControls/ProductListing.ascx" cannot be resolved.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+HResult : -2147024809
+Stack Trace :    at Telerik.Sitefinity.Utilities.TypeConverters.TypeResolutionService.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Telerik.Sitefinity.Utilities.TypeConverters.TypeResolutionService.GetType(String name, Boolean throwOnError)
+   at Telerik.Sitefinity.Utilities.TypeConverters.TypeResolutionService.ResolveType(String name, Boolean throwOnError)
+   at Telerik.Sitefinity.Modules.ControlManager`1.GetControlType(ObjectData controlData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.CreateNewControl(ZoneEditorWebServiceArgs state, IControlManager manager, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateControlState(ZoneEditorWebServiceArgs state)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : SABINA-PC
+TimeStamp : 4/6/2015 1:50:25 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130728014482238829
+ThreadIdentity : 
+WindowsIdentity : Sabina-PC\Sabina
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: SABINA-PC
+
+App Domain: /LM/W3SVC/2/ROOT-1-130728014482238829
+
+ProcessId: 12072
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:12928
+
+Extended Properties: 
+----------------------------------------
