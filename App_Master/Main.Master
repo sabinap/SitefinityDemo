@@ -1,5 +1,7 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="SitefinityWebApp.App_Master.Main" %>
 
+<%@ Register Src="~/Usercontrols/Navigation.ascx" TagName="Navigation" TagPrefix="customControls" %>
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -10,6 +12,9 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <header>
+            <customControls:Navigation ID="ctrlNavigation" runat="server" />
+        </header>
     <div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
